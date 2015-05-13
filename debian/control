@@ -1,0 +1,15 @@
+Source: uci
+Section: devel
+Priority: optional
+Maintainer: Luka Perkov <luka.perkov@sartura.hr>
+Build-Depends: debhelper (>= 8.0.0), cmake
+Standards-Version: 3.9.4
+Homepage: http://nbd.name/gitweb.cgi?p=uci.git
+Vcs-Git: git://nbd.name/uci.git
+Vcs-Browser: http://nbd.name/gitweb.cgi?p=uci.git;a=summary
+
+Package: uci
+Architecture: amd64 i386
+Depends: libubox
+Description: OpenWrt UCI library
+ Library and utility for the Unified Configuration Interface for OpenWrt
